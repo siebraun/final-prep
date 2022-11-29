@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="formHolder">
+      <div class="formIngredients">
+        <input
+          type="text"
+          name="ingred0"
+          id="ingred0"
+          placeholder="Ingredient #1"
+        />
+        <input
+          type="text"
+          name="ingred1"
+          id="ingred1"
+          placeholder="Ingredient #2"
+        />
+        <input
+          type="text"
+          name="ingred2"
+          id="ingred2"
+          placeholder="Ingredient #3"
+        />
+        <div id="addIngred" class="addButton">+</div>
+      </div>
+
+      <div class="formInstructions">
+        <input
+          type="text"
+          name="inst0 "
+          id="inst0"
+          placeholder="Instruction #1"
+        />
+        <input
+          type="text"
+          name="inst1"
+          id="inst1"
+          placeholder="Instruction #2"
+        />
+        <input
+          type="text"
+          name="inst2"
+          id="inst2"
+          placeholder="Instruction #3"
+        />
+        <div id="addInst" class="addButton">+</div>
+      </div>
+
+      <div class="submit">
+        <input id="submit" type="submit" value="Submit" />
+      </div>
+    </div>
+
+    <div class="data"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="app/app.js"></script>
+  </body>
+</html>
